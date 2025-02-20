@@ -29,9 +29,8 @@ This project is a **responsive restaurant web page** designed for the **Module07
 ## 🚀 Deployment
 1. **WCET Web Server**  
    The project is deployed on the WCET web server and can be accessed at:  
-   🔗 [https://wcet.waketech.edu/username/WEB210/Module07/index.html](https://wcet.waketech.edu/username/WEB210/Module07/index.html)  
-   *(Replace `username` with your actual WCET username.)*
-
+   🔗 [https://wcet.waketech.edu/tmmims1/WEB210/Module07/index.html](https://wcet.waketech.edu/username/WEB210/Module07/index.html)  
+   
 2. **GitHub Repository**  
    This project is also hosted on **GitHub Pages** (if applicable).  
 
