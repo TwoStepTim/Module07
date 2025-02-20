@@ -4,12 +4,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4e1c6;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     margin-top: 100px;
 }
 
+h3 {
+    font-size: 1.5rem;
+    color: #1f513f;
+    margin-bottom: 10px;
+}
+
 /* Navigation Bar */
-/* Sticky Navbar */
 .navbar {
     position: fixed;
     width: 100%;
@@ -23,11 +28,42 @@ body {
     padding: 15px 20px;
     z-index: 1000;
     max-width: 100%;
-    box-sizing: border-box; /* Prevents extra width issues */
-    overflow: hidden; /* Prevents horizontal scroll */
+    box-sizing: border-box; 
+    overflow: hidden;
 }
 
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
 
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px; 
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    flex-wrap: wrap; 
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.nav-menu li a:hover {
+    color: #f4e1c6;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
 
 /* Hero Section Animation */
 .fade-in {
@@ -48,39 +84,6 @@ body {
     }
 }
 
-.logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-.nav-menu {
-    list-style: none;
-    display: flex;
-    gap: 15px; /* Reduce space between links */
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    flex-wrap: wrap; /* Prevents overflow */
-}
-
-.nav-menu li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    white-space: nowrap; /* Prevents text from wrapping */
-}
-
-.nav-menu li a:hover {
-    color: #f4e1c6;
-}
-
-/* Fix Hamburger Menu on Mobile */
-.hamburger {
-    display: none;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-}
 
 /* Hero Section */
 .hero {
@@ -100,7 +103,6 @@ body {
     width: 100%;
 }
 
-/* Left Side: Address Input & Buttons */
 .order-section {
     flex: 1;
     text-align: left;
@@ -140,12 +142,12 @@ body {
 }
 
 .delivery-btn {
-    background-color: #1f513f; /* Deep green */
+    background-color: #1f513f; 
     color: white;
 }
 
 .pickup-btn {
-    background-color: #f4e1c6; /* Cream */
+    background-color: #f4e1c6;
     color: #9b1c31;
 }
 
@@ -157,13 +159,13 @@ body {
     background-color: #e0d1b3;
 }
 
-/* Right Side: Image */
 .hero-image img {
     height: 300px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 10px;
 }
+
 /* Services Section */
 .services {
     display: flex;
@@ -182,14 +184,8 @@ body {
 
 .service-icon {
     font-size: 50px;
-    color: #9b1c31; /* Dark Red */
+    color: #9b1c31; 
     margin-bottom: 15px;
-}
-
-h3 {
-    font-size: 1.5rem;
-    color: #1f513f; /* Deep Green */
-    margin-bottom: 10px;
 }
 
 /* Hours of Operation Section */
@@ -221,13 +217,13 @@ h3 {
 
 .hours-info h2 {
     font-size: 2rem;
-    color: #9b1c31; /* Dark Red */
+    color: #9b1c31; 
     margin-bottom: 15px;
 }
 
 .hours-info p {
     font-size: 1.2rem;
-    color: #1f513f; /* Deep Green */
+    color: #1f513f; 
     margin-bottom: 8px;
 }
 
@@ -276,7 +272,6 @@ h3 {
     margin-top: 10px;
 }
 
-/* Hover Effect for Menu Items */
 .menu-item img {
     width: 100%;
     border-radius: 15px;
@@ -288,7 +283,7 @@ h3 {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
-/* Menu Link */
+
 .menu-link {
     display: block;
     text-align: center;
@@ -347,6 +342,7 @@ h3 {
 .newsletter button:hover {
     background-color: #72151f;
 }
+
 #scrollToTopBtn {
     display: none;
     position: fixed;
@@ -391,10 +387,6 @@ footer i {
         padding-left: 0;
         margin-top: 20px;
     }
-}
-
-/* Responsive Layout */
-@media (max-width: 768px) {
     .menu-items {
         flex-direction: column;
     }
@@ -402,19 +394,12 @@ footer i {
     .newsletter input {
         width: 80%;
     }
-}
 
-/* Responsive Design */
-@media (max-width: 768px) {
     .services {
         flex-direction: column;
         gap: 30px;
     }
-}
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    /* Mobile Navigation */
     .nav-menu {
         display: none;
         flex-direction: column;
@@ -433,7 +418,8 @@ footer i {
 
     }
     .nav-menu li a {
-        color: #9b1c31;        text-decoration: none;
+        color: #9b1c31;        
+        text-decoration: none;
        
     }
     .hamburger {
@@ -454,3 +440,5 @@ footer i {
         margin-top: 15px;
     }
 }
+
+
