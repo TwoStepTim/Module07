@@ -36,7 +36,7 @@ This project is a **responsive restaurant web page** designed for the **Module07
 
    - Clone this repo:  
      ```bash
-     git clone https://github.com/your-github-username/Module07.git
+     git clone https://github.com/TwoStepTim/Module07.git
      cd Module07
      ```
    - Open `index.html` in your browser.
